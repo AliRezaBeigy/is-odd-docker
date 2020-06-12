@@ -1,0 +1,11 @@
+{
+  "name": "isodd",
+  "version": "1.0.0",
+  "main": "isOdd.js",
+  "author": "AliReza Beigy",
+  "repository": "AliRezaBeigy/is-odd-docker",
+  "license": "MIT",
+  "dependencies": {
+    "is-odd": "^3.0.1"
+  }
+}
