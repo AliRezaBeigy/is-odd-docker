@@ -17,11 +17,11 @@ $ docker pull alirezabeigy/is-odd
 Works with strings or numbers.
 
 ```sh
-$ docker run -it -e NUMBER='2' is-odd #=> true
-$ docker run -it -e NUMBER='3' is-odd #=> true
+$ docker run -it --rm -e NUMBER='2' alirezabeigy/is-odd #=> true
+$ docker run -it --rm -e NUMBER='3' alirezabeigy/is-odd #=> true
 
-$ docker run -it -e NUMBER=2 is-odd #=> true
-$ docker run -it -e NUMBER=3 is-odd #=> true
+$ docker run -it --rm -e NUMBER=2 alirezabeigy/is-odd #=> true
+$ docker run -it --rm -e NUMBER=3 alirezabeigy/is-odd #=> true
 ```
 
 ## About
